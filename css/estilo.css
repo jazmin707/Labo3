@@ -1,0 +1,482 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+
+
+.body-index{
+    font-family:  sans-serif;
+    text-decoration: none;
+    padding: 70px 20px 0;
+    background: url(../imagenes/fondo5.png);
+    background-size:  100% 100%;
+   background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+                                      /* PRINCIPIO ARREGLOS AL MENU*/
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+.nav{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 80px;
+    background-color:  rgb(92, 37, 37);
+}
+.logo{
+    display: inline-block;
+    position: relative;
+    top: 0;
+    left: 0;
+   
+
+}
+.logo img{
+  
+    padding: 0 40px;
+    line-height: 80px;
+    object-fit: contain;
+    object-position: center;
+
+}
+.menu{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+.menu-item{
+    font-size: 17px;
+    margin: 0 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content:left;
+    width: 20%;
+    height: 80%;
+    color: white;
+
+}
+.menu-item a{
+    width: 100%;
+    height: 100%;
+    padding: 15px 12px;
+    text-align: center;
+    vertical-align: middle;
+    
+    text-decoration: none;
+    color:white;
+    
+    
+}
+.menu-item:hover{
+    background-color: rgb(141, 60, 60);
+    transition: all .5s;
+    border-radius: 5px;
+}
+ .menu-item:hover .submenu {
+    display: initial;
+   transition: all .5s;
+
+}
+.submenu{
+    position: absolute;
+    width: 15.5%;
+    top: 65px;
+    list-style: none;
+    display: none;
+    background-color:  rgb(92, 37, 37);
+}
+.submenu-items{
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+}
+.submenu-items a{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+.submenu-items a:hover{
+    background-color: rgb(167, 102, 102);
+    transition: all .5s;
+}
+
+                             /*FIN DE ARREGLOS DEL MENU*/
+
+                             /*PRINCIPIO ARREGLO INDEX*/
+.principal{
+	width: 100%;
+	height: 650px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.principal img{
+    margin-top: 250px;
+}
+.video div{
+    margin-top: 100px;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+}
+
+.secundario{
+	margin-top: 20%;
+	display: flex;
+}
+.secundario div{
+	width: 33%;
+	padding: 2%;
+	text-align: center;
+}
+.secundario div a img{
+	width: 300px;
+	margin-bottom: 2rem;
+    height: 200px;
+
+}
+h2{
+    margin-top: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.secundario a{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+.audio div{
+   
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 350px;
+}
+footer img{
+	max-width: 2.5rem;
+	width: 100%;
+	height: auto;
+	margin-right: .5%;
+}
+                              /*FIN DEL INDEX*/
+                              /*INICIO ARREGLO INFORMACION*/
+ 
+body{
+    padding: 200px 20px 0;
+    background: url(../imagenes/fondocomun.png);
+    background-size:  100% 100%;
+   background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgb(46, 44, 44);
+    background-blend-mode: soft-light;
+}
+
+.titulo-info{
+    font-size: 50px;
+    margin-bottom: 80px;
+    width: 1240px;
+    height: 80px;
+    color:white;
+    text-transform: uppercase;
+    color: rgb(236, 219, 193);
+    
+}
+.texto-info b{
+
+    text-transform: uppercase;
+    font-size: 25px;
+    color: rgb(236, 219, 193);
+}
+.texto-info{
+    font-size: 23px;
+    text-align: justify-all;
+    color:white;
+    background-size:  100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: auto;
+    margin-left: 0;
+    
+}
+.info{
+    float: right;
+}
+.info img{
+    width: 390px;
+    height: 570px;
+    border-radius: 2%;
+    margin-right: 40px;
+    border-style:ridge ;
+}
+.info2{
+    float: left;
+    margin-bottom: 5%;
+}
+.info2 img{
+    width: 400px;
+    height: 250px;
+    border-radius: 2%;
+    margin-right: 40px;
+    border-style:ridge ;
+}
+                                 /*FIN ARREGLO INFORMACIO*/
+                                 /*INICIO ARREGLO PERSONAJES*/
+
+.imagen-personajes{
+
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+.imagen-personajes h2{
+    margin-top: 40px;
+    margin-bottom: 150px;
+    font-size: 34px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+.imagen-personajes a{
+    text-decoration: none;
+    list-style: none;
+
+}
+                                /*FIN ARREGLO PERSONAJES*/
+                                /*INICIO ARREGLO CAPITULOS*/
+.titulo-cap{
+    font-size: 50px;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(235, 214, 183);
+}
+.capitulos h2{
+    font-size: 30px;
+    margin-left: 30px;
+    text-align: left;
+    color: rgb(236, 219, 193);
+}
+.capitulos p{
+    font-size: 23px;
+    text-align: center;
+    color:white;
+    background-size:  100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;   
+    font-family: 'Mulish', sans-serif;
+}
+.capitulos div{
+    margin-top: 80px;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+.capitulos div img{
+    width: 500px;
+    height: 320px;
+    
+}
+                                /*FIN ARREGLO CAPITULOS*/
+                                /*INICIO ARREGLO CRITICAS*/
+.titulo-critica{
+    font-size: 50px;
+    margin-bottom: 50px;
+    width: 1240px;
+    height: 80px;
+    text-transform: uppercase;
+    text-align: left;
+    color: rgb(235, 214, 183);
+}
+.texto-critica {
+    margin-top: 100px;
+    color:white;
+    font-size: 23px;
+    text-align: justify-all;
+    color:white;
+    background-size:  100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: auto;
+    margin-left: 0;
+}
+.texto-critica  a{
+    color:rgb(185, 27, 27);
+}
+                            /*FIN DEL ARREGLO CRITICA*/
+                            /*INICIO ARREGLO DE INFECTADOS*/
+.infectados{
+    border-style: ridge;
+    margin-bottom: 200px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.infectados h2{
+    font-size: 37px;
+    text-align: center;
+    margin-bottom: 30px;
+    color:  rgb(235, 214, 183);
+}
+.infectados p{
+    color: white;
+    font-size: 27px;
+   text-align: center;
+   padding: 0 20px;
+    
+}
+.infectados div{
+
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+.infectados img{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+                        /*FIN DE ARREGLO DE INFECTADOS*/
+                        /*INICIO ARREGLO GRUPOS*/
+
+.grupos{
+    border-style: ridge;
+    margin-bottom: 200px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.grupos h2{
+    margin-left: 50px;
+    font-size: 37px;
+    text-align: left;
+    margin-bottom: 30px;
+    color:  rgb(235, 214, 183);  
+}
+.grupos p{
+    color: white;
+    font-size: 27px;
+   text-align: center;
+   padding: 0 20px;
+}
+.grupos div{
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+.grupos img{
+   
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+.img2 img{
+  
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+                                    /*FIN ARREGLO GRUPOS*/
+                                    /*INICIO ARREGLO PERSONAJES*/
+.titulo-personajes{
+    color:  rgb(235, 214, 183); 
+    font-size: 50px;
+    margin-left: 20px;
+}
+.datos p{
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    /*border-style:ridge ;*/
+    margin-right: 850px;
+    margin-bottom: 20px;
+}
+.actores div img{
+    float: right;
+    margin-right: 40px;
+    border-style:ridge ;
+
+}
+.actores .personajes-texto{
+    color: white;
+    font-size: 27px;
+    margin-top: 25px;
+    text-align:left;
+    margin-left: 20px;
+    margin-right: 400px;
+    margin-bottom: 40px;
+}
+.datos p b{
+    color: white;  
+    font-size: 27px;
+}
+                                /*FIN ARREGLO PERSONAJES*/
+                               /*INICIO ARREGLO GALERIA*/
+
+
+.body-galeria{
+    padding: 200px 10px 0;
+}
+.titulo-galeria{
+    font-size: 50px;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(235, 214, 183);
+}
