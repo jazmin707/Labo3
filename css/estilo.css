@@ -480,3 +480,57 @@ body{
     text-align: center;
     color: rgb(235, 214, 183);
 }
+                                /*FIN ARREGLO GALERIA*/
+                                /*INICIO ARREGLO CONTACTO*/
+                                /*
+
+.contenedora{
+   
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 8%;
+    grid-gap: 59%;
+    
+}
+.contenedora input{
+    margin-top: 10%;
+}
+.contenedora textarea{
+    margin-top: 10%;
+}
+*/
+.contacto{
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+form{
+    
+    padding: 50% 12%;
+    box-shadow: 0 0 20px  rgb(100, 50, 50);
+    border-radius: 3%;
+    text-align: center;
+    
+    background-color: rgb(78, 26, 26);
+    
+}
+.form h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    
+}
+.campo{
+   display: flex;
+   flex-direction: column;
+    padding: 20px 29px;
+    margin-top: 25px;
+}
+input , textarea{
+   
+    padding: 20px 14px;
+    margin-top: 25px; 
+}
+
