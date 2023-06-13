@@ -655,11 +655,7 @@ textarea:hover {
         
         
     }
-/*
-    .menu{
-        display: none;
-    }*/
-    
+
    .nav{
       position: absolute;
       flex-direction: column;
@@ -670,9 +666,9 @@ textarea:hover {
     }
     
     .menu{
-        top: 7.4%;
+        top: 6%;
         right: 0;
-        flex-direction: column;
+        flex-direction:column ;
         background-color: #7a3535;
         width: 50%;
         right: 0;
@@ -697,14 +693,14 @@ textarea:hover {
     }
     .logo img{
       
-        padding: 0 40px;
+       
         line-height: 80px;
         object-fit: contain;
         object-position: center;
         padding: 10% ;
         width: 80px;
         position: relative;
-        left: 40px;
+        left: 20px;
     
     }
     .menu-item:hover{
@@ -722,18 +718,78 @@ textarea:hover {
         margin-top: 5%;
         width: 400px;
         height: 90px;
+        padding: auto;
         
     }
     .video div{
        margin-top: 0px;
     }
+    
     .secundario{
-        display: block;     
         
+        display: block;
+    }
+    .secundario div{
+        width: 100%;
     }
     .secundario div a img{
-       margin-left: 50%;
+        margin-bottom: 1rem;
     }
-  
- 
+    h2{
+        font-size: 1rem;
+    }
+    h4{
+        font-size: 1rem;
+    }
+
+
+    .titulo-info{
+        font-size: 30px;
+        margin-bottom: 80px;
+        width: 1240px;
+        height: 80px;
+        color:white;
+        text-transform: uppercase;
+        color: rgb(236, 219, 193);
+        
+    }
+    .texto-info b{
+    
+        text-transform: uppercase;
+        font-size: 25px;
+        color: rgb(236, 219, 193);
+    }
+    .texto-info{
+        font-size: 23px;
+        text-align: justify-all;
+        color:white;
+        background-size:  100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        width: auto;
+        margin-left: 0;
+        
+    }
+    .info{
+        float: right;
+    }
+    .info img{
+        width: 390px;
+        height: 570px;
+        border-radius: 2%;
+        margin-right: 40px;
+        border-style:ridge ;
+    }
+    .info2{
+        float: left;
+        margin-bottom: 5%;
+    }
+    .info2 img{
+        width: 400px;
+        height: 250px;
+        border-radius: 2%;
+        margin-right: 40px;
+        border-style:ridge ;
+    }
 }
