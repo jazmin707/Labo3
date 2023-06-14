@@ -214,9 +214,8 @@ footer{
 }
 footer img{
 	max-width: 2.5rem;
-	width: 100%;
-	height: auto;
-	margin-right: .5%;
+    margin-right: 2%;
+    margin-left: 2%;
 }
                               /*FIN DEL INDEX*/
                               /*INICIO ARREGLO INFORMACION*/
@@ -572,7 +571,7 @@ input:hover:focus::-ms-placeholder, textarea:hover:focus:-ms-placeholder {
 
 
 #form {
-  position: relative;
+  position:none;
   width: 500px;
   margin: 50px auto 100px auto;
 }
@@ -643,7 +642,8 @@ textarea:hover {
   color: #ffffff;
 }
 .contenedora h2{
-    margin-bottom: 10%;
+    margin-bottom: 5%;
+    margin-top: 5%;
     font-size: 30px;
 }
 
@@ -651,9 +651,7 @@ textarea:hover {
     .boton_menu{
         display: block;
         position: absolute;
-        right: 0;
-        
-        
+        right: 0;  
     }
 
    .nav{
@@ -751,24 +749,51 @@ textarea:hover {
         font-size: 1rem;
 
     }
+    /*INFORMACION*/
     .titulo-info{
-        font-size: 30px;
-        margin-bottom: 80px;
-        width: 1240px;
-        height: 80px;
-        color:white;
-        text-transform: uppercase;
-        color: rgb(236, 219, 193);
         
+        font-size: 23px;
+        width: 70%;
+        height: 10%;
+        margin-top: 5%;
+        margin-bottom: auto;     
     }
     .texto-info b{
     
         text-transform: uppercase;
-        font-size: 25px;
+        font-size: 15px;
         color: rgb(236, 219, 193);
     }
     .texto-info{
+        font-size: 15px;  
+    }
+    
+    .info img{
+        width: 170px;
+        height: 270px;
+        margin-right: 0px;
+    }
+    .info2{
+        float: left;
+        margin-bottom: 0;
+        margin-top: 0;
+       
+    }
+    .info2 img{
+        width: 220px;
+        height: 150px;
+       margin-left: auto;
+    }
+    /*CRITICA*/
+    .titulo-critica{
         font-size: 23px;
+        margin-bottom: 0px;
+        width: 100%;
+        height: 0;
+    }
+    .texto-critica {
+        margin-top: 10%;
+        font-size: 17px;
         text-align: justify-all;
         color:white;
         background-size:  100% 100%;
@@ -777,27 +802,120 @@ textarea:hover {
         background-attachment: fixed;
         width: auto;
         margin-left: 0;
+    }
+    .texto-critica  a{
+        color:rgb(185, 27, 27);
+    }
+    /*PERSONAJES*/
+    .titulo-personajes{
+        color:  rgb(235, 214, 183); 
+        font-size: 23px;
+        margin-left: 20px;
+    }
+    .datos p{
+        color: white;
+        font-size: 17px;
+        margin-right: 0px;
+    }
+    .actores div img{
+        float: right;
+        margin-right: 0px;
+        border-style:ridge ;
+        width: 150px;
+    
+    }
+    .actores .personajes-texto{
+        font-size: 17px;
+        margin-right: 0px;
+    }
+    .datos p b{
+        font-size: 17px;
+    }
+    /*CAPITULOS*/
+    .titulo-cap{
+        font-size: 23px;
+        margin-bottom: 10%;
+        text-align: center;
+    }
+    .capitulos h2{
+        font-size: 18px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .capitulos p{
+        font-size: 17px;
+    }
+    .capitulos div{
+        margin-top: 40px;
+        margin-bottom: 70px;
+    }
+    .capitulos div img{
+        width: 300px;
+        height: 200px;  
+    }
+    /*INFECTADOS*/
+    .infectados{
+        border-style: ridge;
+        margin-bottom: 20%;
+       justify-content: center;
+    }
+    .infectados h2{
+        font-size: 19px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .infectados p{
+        font-size: 17px;      
+    }
+
+    .infectados img{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 330px;
+    }
+    /*GRUPOS*/
+    .grupos{
+        margin-bottom: 20%;
+       justify-content: center;
+    }
+    .grupos h2{
+        margin-left: 10%;
+        font-size: 17px;
+        text-align: left;
+        margin-bottom: 5%; 
+    }
+    .grupos p{
+        font-size: 17px;
+       text-align: left;
+    }
+    .grupos div{
+        justify-content: center;
+        align-content: center;
+        display: flex;
+    }
+    .grupos img{
+       
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 200px;
+    }
+    .img2 img{
+        width: 200px;
+    }
+    /*GALERIA*/
+    .body-galeria{
+        padding: 200px 10px 0;
         
     }
-    .info{
-        float: right;
+    .titulo-galeria{
+        font-size: 23px;
+        margin-bottom: 10%;
+        text-transform: uppercase;
+        text-align: center;
+        color: rgb(235, 214, 183);
     }
-    .info img{
-        width: 390px;
-        height: 570px;
-        border-radius: 2%;
-        margin-right: 40px;
-        border-style:ridge ;
+    .example-image{
+        width: 150px;
     }
-    .info2{
-        float: left;
-        margin-bottom: 5%;
-    }
-    .info2 img{
-        width: 400px;
-        height: 250px;
-        border-radius: 2%;
-        margin-right: 40px;
-        border-style:ridge ;
-    }
+
 }
