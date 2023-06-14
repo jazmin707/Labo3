@@ -221,7 +221,7 @@ footer img{
                               /*INICIO ARREGLO INFORMACION*/
  
 body{
-    padding: 200px 20px 0;
+    padding: 100px 20px 0;
     background: url(../imagenes/fondocomun.png);
     background-size:  100% 100%;
    background-repeat: no-repeat;
@@ -652,6 +652,7 @@ textarea:hover {
         display: block;
         position: absolute;
         right: 0;  
+        margin-top: 0.7%;
     }
 
    .nav{
@@ -756,7 +757,7 @@ textarea:hover {
         width: 70%;
         height: 10%;
         margin-top: 5%;
-        margin-bottom: auto;     
+        margin-bottom: 10%;     
     }
     .texto-info b{
     
@@ -777,23 +778,27 @@ textarea:hover {
         float: left;
         margin-bottom: 0;
         margin-top: 0;
+        padding: 10px 10px 10px 10px;
        
     }
+
     .info2 img{
         width: 220px;
         height: 150px;
-       margin-left: auto;
+       margin-left: 0;
+       margin-right: 0;
+       padding: 0;
     }
     /*CRITICA*/
     .titulo-critica{
         font-size: 23px;
-        margin-bottom: 0px;
+        margin-bottom: 20%;
         width: 100%;
         height: 0;
     }
     .texto-critica {
         margin-top: 10%;
-        font-size: 17px;
+        font-size: 15px;
         text-align: justify-all;
         color:white;
         background-size:  100% 100%;
@@ -814,7 +819,7 @@ textarea:hover {
     }
     .datos p{
         color: white;
-        font-size: 17px;
+        font-size: 15px;
         margin-right: 0px;
     }
     .actores div img{
@@ -865,13 +870,13 @@ textarea:hover {
         margin-bottom: 30px;
     }
     .infectados p{
-        font-size: 17px;      
+        font-size: 15px;      
     }
 
     .infectados img{
         margin-top: 10%;
         margin-bottom: 10%;
-        width: 330px;
+        width: 230px;
     }
     /*GRUPOS*/
     .grupos{
@@ -905,17 +910,51 @@ textarea:hover {
     /*GALERIA*/
     .body-galeria{
         padding: 200px 10px 0;
-        
     }
     .titulo-galeria{
         font-size: 23px;
         margin-bottom: 10%;
+        margin-left: 0;
         text-transform: uppercase;
         text-align: center;
         color: rgb(235, 214, 183);
     }
     .example-image{
-        width: 150px;
+        width: 100px;
+    }
+    .galeria{
+        margin-left: 10%;
+        
+    }
+    /*FORMULARIO*/
+    #form {
+        position:none;
+        width: 100px;
+        margin: 0px auto 0px auto;
+        left: 0;
+        margin-right: 80%;
+      }
+      
+      input {
+        width: 390px;  
+      }
+      
+      
+      textarea {
+        width: 390px;
+        max-width: 390px;
+        height: 110px;
+        max-height: 110px;
+        padding: 15px;    
+       
+      }
+      #submit {
+        width: 390px;
+      }
+      .contenedora h2{
+        margin-bottom: 15%;
+        margin-top: 5%;
+        font-size: 23px;
     }
 
 }
