@@ -3,3 +3,4 @@ const navMenu= document.querySelector(".menu");
 
 boton_menu.addEventListener("click", () =>{
     navMenu.classList.toggle("nav-menu-visible")});
+

@@ -667,11 +667,9 @@ textarea:hover {
     
     .menu{
         top: 6%;
-        right: 0;
         flex-direction:column ;
         background-color: #7a3535;
-        width: 50%;
-        right: 0;
+        width: 100%;
         position: fixed;
         left: 100%;
         transition: left 0.3s;
@@ -682,18 +680,30 @@ textarea:hover {
         width: 100%;
         height: 100%;
         color: white;
-     
+        position: relative;
     }
+
+    .submenu{
+       
+        width:100%;
+        top: 40px;
+        margin-left: 0;
+        display: none;
+        z-index: 1000;
+        background-color: rgb(133, 50, 50);   
+    }
+    .submenu-items{
+        font-size: 14px;
+    }
+  
+ 
+
     .logo{
         display: inline-block;
         position: absolute;
-       
-       
-    
+        z-index: 1000;
     }
-    .logo img{
-      
-       
+    .logo img{ 
         line-height: 80px;
         object-fit: contain;
         object-position: center;
@@ -701,7 +711,6 @@ textarea:hover {
         width: 80px;
         position: relative;
         left: 20px;
-    
     }
     .menu-item:hover{
         background:none;
@@ -711,12 +720,12 @@ textarea:hover {
         color:rgb(219, 189, 190);  
     }
     .nav-menu-visible{
-        left: 50%;
+        left: 0%;
     }
  
     .principal img{
         margin-top: 5%;
-        width: 400px;
+        width: 350px;
         height: 90px;
         padding: auto;
         
@@ -740,9 +749,8 @@ textarea:hover {
     }
     h4{
         font-size: 1rem;
+
     }
-
-
     .titulo-info{
         font-size: 30px;
         margin-bottom: 80px;
