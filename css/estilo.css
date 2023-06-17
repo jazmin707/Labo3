@@ -646,7 +646,9 @@ textarea:hover {
     margin-top: 5%;
     font-size: 30px;
 }
-
+#conectar{
+    opacity: 0;
+}
 @media (max-width: 570px){
     .boton_menu{
         display: block;
