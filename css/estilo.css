@@ -938,20 +938,20 @@ textarea:hover {
       }
       
       input {
-        width: 370px;  
+        width: 270px;  
       }
       
       
       textarea {
-        width: 370px;
-        max-width: 370px;
+        width: 270px;
+        max-width: 270px;
         height: 110px;
         max-height: 110px;
         padding: 15px;    
        
       }
       #submit {
-        width: 370px;
+        width: 270px;
       }
       .contenedora h2{
         margin-bottom: 15%;
