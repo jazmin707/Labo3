@@ -663,7 +663,6 @@ textarea:hover {
       width: 100%;
       height: 65%;
       top: 0;
-     /*box-shadow:0 0 0 100vmax rgb(0, 0,0, .5) ;*/
     }
     
     .menu{
@@ -934,24 +933,25 @@ textarea:hover {
         width: 100px;
         margin: 0px auto 0px auto;
         left: 0;
-        margin-right: 80%;
+       margin-right: 100%;
+      
       }
       
       input {
-        width: 390px;  
+        width: 370px;  
       }
       
       
       textarea {
-        width: 390px;
-        max-width: 390px;
+        width: 370px;
+        max-width: 370px;
         height: 110px;
         max-height: 110px;
         padding: 15px;    
        
       }
       #submit {
-        width: 390px;
+        width: 370px;
       }
       .contenedora h2{
         margin-bottom: 15%;
