@@ -171,7 +171,7 @@
 }
 
 .secundario{
-	margin-top: 20%;
+	margin-top: 10%;
 	display: flex;
 }
 .secundario div{
@@ -190,6 +190,14 @@ h2{
     text-align: center;
     text-transform: uppercase;
     color: white;
+}
+.titu_min_index{
+    margin-top: 10%;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    color: white;
+    font-size: 20px;
 }
 .secundario a{
     font-size: 1.5rem;
@@ -221,7 +229,7 @@ footer img{
                               /*INICIO ARREGLO INFORMACION*/
  
 body{
-    padding: 100px 20px 0;
+    padding: 15% 5% 0;
     background: url(../imagenes/fondocomun.png);
     background-size:  100% 100%;
    background-repeat: no-repeat;
@@ -304,6 +312,10 @@ body{
 }
                                 /*FIN ARREGLO PERSONAJES*/
                                 /*INICIO ARREGLO CAPITULOS*/
+.capitulos{
+    border-style: ridge;
+    margin-bottom: 5%;
+}
 .titulo-cap{
     font-size: 50px;
     margin-bottom: 80px;
@@ -330,6 +342,7 @@ body{
     margin-left: 20px;
     margin-right: 20px;   
     font-family: 'Mulish', sans-serif;
+    
 }
 .capitulos div{
     margin-top: 80px;
@@ -337,6 +350,7 @@ body{
     justify-content: center;
     align-content: center;
     display: flex;
+    
 }
 .capitulos div img{
     width: 500px;
@@ -733,6 +747,11 @@ textarea:hover {
     .video div{
        margin-top: 0px;
     }
+    .titu_min_index{
+        margin-top: 10%;
+        font-size: 13px;
+        margin-left: 15%;
+    }
     
     .secundario{
         
@@ -769,7 +788,9 @@ textarea:hover {
     .texto-info{
         font-size: 15px;  
     }
-    
+    .titulo2{
+        width: 100%;
+    }
     .info img{
         width: 170px;
         height: 270px;
@@ -784,8 +805,8 @@ textarea:hover {
     }
 
     .info2 img{
-        width: 220px;
-        height: 150px;
+        width: 350px;
+        height: 230px;
        margin-left: 0;
        margin-right: 0;
        padding: 0;
